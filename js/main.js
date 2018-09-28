@@ -1,6 +1,6 @@
 $(document).ready(function(){
    $('ul li a:first').addClass('active');
-   $('#contenedor').load('resources/integrantes.html');
+   $('#contenedor').load('resources/inicio.html');
 
    $('.nav-link').click(function(){
    	$('ul li a').removeClass('active');
